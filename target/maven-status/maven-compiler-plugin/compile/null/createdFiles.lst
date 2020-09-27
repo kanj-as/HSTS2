@@ -1,4 +1,5 @@
 org\HSTS_2020\App.class
+org\HSTS_2020\LoginController.class
 org\HSTS_2020\PrimaryController.class
 module-info.class
 org\HSTS_2020\SecondaryController.class
