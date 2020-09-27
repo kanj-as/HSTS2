@@ -8,17 +8,22 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.HSTS_2020.LoginController">
    <left>
       <AnchorPane prefHeight="400.0" prefWidth="269.0" BorderPane.alignment="CENTER">
          <children>
             <ImageView fitHeight="400.0" fitWidth="283.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../הנדסת%20תוכנה/login.jpg" />
+                  <Image url="@loginStudent.jpg" />
                </image>
             </ImageView>
+            <Text layoutX="61.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HSTS - Login">
+               <font>
+                  <Font name="Bradley Hand ITC" size="24.0" />
+               </font>
+            </Text>
          </children>
       </AnchorPane>
    </left>
@@ -30,16 +35,16 @@
                   <Font size="14.0" />
                </font>
             </Label>
-            <TextField layoutX="114.0" layoutY="87.0" promptText="User Name" />
+            <TextField fx:id="InsertStudentUserName" layoutX="114.0" layoutY="87.0" promptText="User Name" />
             <Label layoutX="31.0" layoutY="128.0" text="Password">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <TextField layoutX="114.0" layoutY="126.0" promptText="Password" />
-            <Button layoutX="31.0" layoutY="212.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="231.0" style="-fx-background-color: #f6c100;" text="Login" />
-            <Button layoutX="31.0" layoutY="250.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="231.0" style="-fx-background-color: #f6c100;" text="Exit" />
-            <Label layoutX="63.0" layoutY="171.0" text="Invalid Login please try again" textFill="RED">
+            <TextField fx:id="InsertStudentPassword" layoutX="114.0" layoutY="126.0" promptText="Password" />
+            <Button fx:id="StudentLoginButton" layoutX="31.0" layoutY="212.0" mnemonicParsing="false" onAction="#HandleStudentLogin" prefHeight="25.0" prefWidth="231.0" style="-fx-background-color: #f6c100;" text="Login" />
+            <Button fx:id="StudentExitButton" layoutX="31.0" layoutY="250.0" mnemonicParsing="false" onAction="#HandleStudentExit" prefHeight="25.0" prefWidth="231.0" style="-fx-background-color: #f6c100;" text="Exit" />
+            <Label fx:id="StudentInvalidLogin" layoutX="63.0" layoutY="171.0" text="Invalid Login please try again" textFill="RED" visible="false">
                <font>
                   <Font size="13.0" />
                </font>
