@@ -2,10 +2,10 @@ package org.HSTS_2020;
 
 import java.sql.*;
 public class DBConnection {
-    static public final String DB = "Bc2JdnNE0Y";
-    static public final String DB_URL = "jdbc:mysql://remotemysql.com/"+ DB + "?useSSL=false";
-    static public final String USER = "Bc2JdnNE0Y";
-    static public final String PASS = "PxQYQKGhjQ";
+    static public final String DB = "HSTS";
+    static public final String DB_URL = "localhost"+ DB + "?useSSL=false";
+    static public final String USER = "root";
+    static public final String PASS = "";
     static public final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     private static DBConnection instance = null;
     private DBConnection() {
