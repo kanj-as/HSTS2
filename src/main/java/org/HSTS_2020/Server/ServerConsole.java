@@ -1,8 +1,10 @@
-package org.HSTS_2020;
+package org.HSTS_2020.Server;
 
 // This file contains material supporting section 3.7 of the textbook:
 // "Object Oriented Software Engineering" and is issued under the open-source
 // license found at www.lloseng.com
+
+import org.HSTS_2020.ChatIF;
 
 import java.io.BufferedReader;
 import java.io.IOException;

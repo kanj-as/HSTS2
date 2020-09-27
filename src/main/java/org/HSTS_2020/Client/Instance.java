@@ -1,7 +1,6 @@
-package org.HSTS_2020;
+package org.HSTS_2020.Client;
 
 import javafx.beans.property.SimpleBooleanProperty;
-import javafx.beans.property.SimpleStringProperty;
 
 
 public class Instance {

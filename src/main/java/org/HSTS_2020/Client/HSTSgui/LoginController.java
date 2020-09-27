@@ -1,10 +1,11 @@
-package org.HSTS_2020;
+package org.HSTS_2020.Client.HSTSgui;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import org.HSTS_2020.DBConnection;
 import org.HSTS_2020.Server.Student;
 
 import java.sql.Connection;
@@ -42,7 +43,7 @@ public class LoginController {
         //SEND REQUEST TO SERVER
         List<Student> students = new ArrayList<>();
         try{
-            Connection db=DBConnection.getInstance().getConnection();
+            Connection db= DBConnection.getInstance().getConnection();
             Statement statment = db.createStatement();
             //Class for reading from DB
             ResultSet rs=statment.executeQuery("select * from HSTS.students");
