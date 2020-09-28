@@ -1,5 +1,6 @@
 org\HSTS_2020\App.class
 org\HSTS_2020\Client\AbstractClient.class
+org\HSTS_2020\Client\HSTSgui\MainStudentController.class
 org\HSTS_2020\DBConnection.class
 org\HSTS_2020\Server\ServerConsole$2.class
 org\HSTS_2020\AbstractServer$1.class

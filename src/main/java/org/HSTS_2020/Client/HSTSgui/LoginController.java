@@ -40,10 +40,11 @@ public class LoginController {
     }
 
     @FXML
-    void HandleStudentLogin(ActionEvent event) {
+    void HandleStudentLogin(ActionEvent event) throws IOException {
+        App.setRoot("mainStudent");
         //MAKE json
         //SEND REQUEST TO SERVER
-        List<Student> students = new ArrayList<>();
+        /**List<Student> students = new ArrayList<>();
         try{
             Connection db= DBConnection.getInstance().getConnection();
             Statement statment = db.createStatement();
@@ -59,7 +60,7 @@ public class LoginController {
             throwables.printStackTrace();
 
         }
-
+**/
     }
 
 }
