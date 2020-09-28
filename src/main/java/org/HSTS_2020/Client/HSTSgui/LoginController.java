@@ -5,9 +5,11 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import org.HSTS_2020.App;
 import org.HSTS_2020.DBConnection;
 import org.HSTS_2020.Server.Student;
 
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -33,8 +35,8 @@ public class LoginController {
     private Label StudentInvalidLogin;
 
     @FXML
-    void HandleStudentExit(ActionEvent event) {
-
+    void HandleStudentExit(ActionEvent event) throws IOException {
+        App.setRoot("main");
     }
 
     @FXML
