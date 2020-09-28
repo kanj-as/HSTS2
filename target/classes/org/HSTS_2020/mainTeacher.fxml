@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.HSTS_2020.Client.HSTSgui.MainTeacherController">
+    <left>
+        <AnchorPane prefHeight="400.0" prefWidth="269.0" style="-fx-background-color: #f6c100;" BorderPane.alignment="CENTER">
+            <Text layoutX="71.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Teacher">
+                <font>
+                    <Font name="System Bold" size="36.0" />
+                </font>
+            </Text>
+            <ImageView fitHeight="356.0" fitWidth="270.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+                <Image url="@TeacherLogin.jpg" />
+            </ImageView>
+        </AnchorPane>
+    </left>
+    <right>
+        <AnchorPane prefHeight="400.0" prefWidth="315.0" BorderPane.alignment="CENTER">
+            <Button fx:id="GiveExamButton" layoutX="31.0" layoutY="219.0" mnemonicParsing="false" onAction="#HandleGiveExam" prefHeight="50.0" prefWidth="231.0" style="-fx-background-color: #f6c100;" text="Give Exam">
+                <font>
+                    <Font name="System Italic" size="18.0" />
+                </font>
+            </Button>
+            <Label fx:id="StudentInvalidLogin" layoutX="63.0" layoutY="171.0" text="Invalid Login please try again" textFill="RED" visible="false">
+                <font>
+                    <Font size="13.0" />
+                </font>
+            </Label>
+            <Button fx:id="CreateExamButton" layoutX="31.0" layoutY="146.0" mnemonicParsing="false" onAction="#HandleCreateExam" prefHeight="50.0" prefWidth="231.0" style="-fx-background-color: #f6c100;" text="Create Exam">
+                <font>
+                    <Font name="System Italic" size="18.0" />
+                </font>
+            </Button>
+            <Button fx:id="ExitMainTeacher" layoutX="31.0" layoutY="291.0" mnemonicParsing="false" onAction="#HandleExitMainTeacher" prefHeight="47.0" prefWidth="231.0" style="-fx-background-color: #f6c100;" text="Exit">
+                <font>
+                    <Font name="System Italic" size="18.0" />
+                </font>
+            </Button>
+            <Button fx:id="AddQuestionButton" layoutX="31.0" layoutY="75.0" mnemonicParsing="false" onAction="#HandleAddQuestion" prefHeight="50.0" prefWidth="231.0" style="-fx-background-color: #f6c100;" text="Add Question">
+                <font>
+                    <Font name="System Italic" size="18.0" />
+                </font>
+            </Button>
+        </AnchorPane>
+    </right>
+</BorderPane>
