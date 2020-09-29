@@ -12,6 +12,11 @@ public class Student {
         this.student_password = student_password;
     }
 
+    public Student(int student_id, String student_password) {
+        this.student_id = student_id;
+        this.student_password = student_password;
+    }
+
     public int getStudent_id() {
         return student_id;
     }

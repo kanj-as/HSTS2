@@ -1,9 +1,9 @@
-package org.HSTS_2020;
+package org.HSTS_2020.Client;
 
 import java.sql.*;
 public class DBConnection {
     static public final String DB = "HSTS";
-    static public final String DB_URL = "localhost"+ DB + "?useSSL=false";
+    static public final String DB_URL = "jdbc:mysql://localhost/"+ DB + "?useSSL=false";
     static public final String USER = "root";
     static public final String PASS = "";
     static public final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";

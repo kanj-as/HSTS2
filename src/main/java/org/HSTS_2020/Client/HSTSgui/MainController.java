@@ -21,8 +21,8 @@ public class MainController {
     }
 
     @FXML
-    void HandleTeacherMain(ActionEvent event) {
-
+    void HandleTeacherMain(ActionEvent event) throws IOException {
+            App.setRoot("loginTeacher");
     }
 
 }

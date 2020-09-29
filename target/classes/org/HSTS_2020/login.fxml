@@ -2,6 +2,7 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -41,14 +42,14 @@
                   <Font size="14.0" />
                </font>
             </Label>
-            <TextField fx:id="InsertStudentPassword" layoutX="114.0" layoutY="126.0" promptText="Password" />
             <Button fx:id="StudentLoginButton" layoutX="31.0" layoutY="212.0" mnemonicParsing="false" onAction="#HandleStudentLogin" prefHeight="25.0" prefWidth="231.0" style="-fx-background-color: #f6c100;" text="Login" />
-            <Button fx:id="StudentExitButton" layoutX="31.0" layoutY="250.0" mnemonicParsing="false" onAction="#HandleStudentExit" prefHeight="25.0" prefWidth="231.0" style="-fx-background-color: #f6c100;" text="Exit" />
-            <Label fx:id="StudentInvalidLogin" layoutX="63.0" layoutY="171.0" text="Invalid Login please try again" textFill="RED" visible="false">
+            <Button fx:id="StudentExitButton" layoutX="31.0" layoutY="250.0" mnemonicParsing="false" onAction="#exitStudentOnAction" prefHeight="25.0" prefWidth="231.0" style="-fx-background-color: #f6c100;" text="Exit" />
+            <Label fx:id="StudentInvalidLogin" layoutX="33.0" layoutY="171.0" prefHeight="19.0" prefWidth="225.0" textFill="RED">
                <font>
                   <Font size="13.0" />
                </font>
             </Label>
+            <PasswordField fx:id="InsertStudentPassword" layoutX="114.0" layoutY="126.0" promptText="Password" />
          </children>
       </AnchorPane>
    </center>
