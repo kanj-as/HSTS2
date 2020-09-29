@@ -2,6 +2,7 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -36,14 +37,14 @@
                         <Font size="14.0" />
                     </font>
                 </Label>
-                <TextField fx:id="InsertTeacherPassword" layoutX="114.0" layoutY="126.0" promptText="Password" />
-                <Button fx:id="TeacherLoginButton" layoutX="31.0" layoutY="212.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="231.0" style="-fx-background-color: #f6c100;" text="Login" />
+                <Button fx:id="TeacherLoginButton" layoutX="31.0" layoutY="212.0" mnemonicParsing="false" onAction="#HandleTeacherLogin" prefHeight="25.0" prefWidth="231.0" style="-fx-background-color: #f6c100;" text="Login" />
                 <Button fx:id="TeacherExitButton" layoutX="31.0" layoutY="250.0" mnemonicParsing="false" onAction="#HandleTeacherExit" prefHeight="25.0" prefWidth="231.0" style="-fx-background-color: #f6c100;" text="Exit" />
                 <Label fx:id="TeacherInvalidLogin" layoutX="63.0" layoutY="171.0" text="Invalid Login please try again" textFill="RED" visible="false">
                     <font>
                         <Font size="13.0" />
                     </font>
                 </Label>
+         <PasswordField fx:id="InsertTeacherPassword" layoutX="114.0" layoutY="126.0" promptText="Password" />
             </AnchorPane>
         </center>
     </BorderPane>

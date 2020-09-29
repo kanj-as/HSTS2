@@ -32,7 +32,8 @@ public class LoginTeacherController {
     }
 
     @FXML
-    void HandleTeacherLogin(ActionEvent event) {
+    void HandleTeacherLogin(ActionEvent event) throws IOException {
+        App.setRoot("mainTeacher");
 
     }
 

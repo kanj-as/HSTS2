@@ -15,6 +15,7 @@ org\HSTS_2020\Client\ChatClient.class
 org\HSTS_2020\Server\ServerConsole$1.class
 org\HSTS_2020\Server\Student.class
 org\HSTS_2020\Client\Instance.class
+org\HSTS_2020\Client\HSTSgui\MainTeacherController.class
 org\HSTS_2020\AbstractServer.class
 org\HSTS_2020\PrimaryController.class
 org\HSTS_2020\Server\ServerConsole$4.class
