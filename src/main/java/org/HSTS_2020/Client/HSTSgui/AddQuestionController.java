@@ -1,16 +1,16 @@
 package org.HSTS_2020.Client.HSTSgui;
 
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.CheckBox;
-import javafx.scene.control.TextArea;
-import javafx.scene.control.TextField;
-import org.HSTS_2020.App;
+        import javafx.event.ActionEvent;
+        import javafx.fxml.FXML;
+        import javafx.scene.control.Button;
+        import javafx.scene.control.CheckBox;
+        import javafx.scene.control.TextArea;
+        import javafx.scene.control.TextField;
+        import org.HSTS_2020.App;
 
-import java.io.IOException;
+        import java.io.IOException;
 
-public class AddQuestion {
+public class AddQuestionController {
 
     @FXML
     private TextArea AddQuestion;

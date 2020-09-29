@@ -9,19 +9,19 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f6c100;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.HSTS_2020.Client.HSTSgui.AddQuestion">
-    <Text layoutX="18.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose  a Cuorse :">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f6c100;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.HSTS_2020.Client.HSTSgui.AddQuestionController">
+    <Text layoutX="18.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Course :">
         <font>
           <Font size="18.0" />
         </font>
     </Text>
-    <ChoiceBox layoutX="189.0" layoutY="14.0" prefWidth="150.0" />
-    <Text layoutX="16.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add a Question :">
+    <ChoiceBox layoutX="88.0" layoutY="14.0" prefWidth="150.0" />
+    <Text layoutX="16.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Question">
         <font>
           <Font size="18.0" />
         </font>
     </Text>
-    <TextArea fx:id="AddQuestion" layoutX="13.0" layoutY="102.0" prefHeight="66.0" prefWidth="574.0" />
+    <TextArea fx:id="AddQuestion" layoutX="13.0" layoutY="102.0" prefHeight="66.0" prefWidth="574.0" promptText="Write your Question" />
     <Text layoutX="18.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add an Answar :">
         <font>
           <Font size="18.0" />
@@ -34,16 +34,18 @@
           <Font size="18.0" />
         </font>
     </Text>
-    <CheckBox layoutX="30.0" layoutY="236.0" mnemonicParsing="false" text="Answer 1" />
-    <CheckBox layoutX="30.0" layoutY="264.0" mnemonicParsing="false" text="Answer 2" />
-    <CheckBox layoutX="30.0" layoutY="291.0" mnemonicParsing="false" text="Answer 3" />
-    <CheckBox layoutX="30.0" layoutY="318.0" mnemonicParsing="false" text="Answer 4" />
-    <Button fx:id="NextButton" layoutX="545.0" layoutY="364.0" mnemonicParsing="false" onAction="#HandleNext" text="Next" />
-    <Button fx:id="PrevButton" layoutX="30.0" layoutY="364.0" mnemonicParsing="false" onAction="#HandlePrev" text="Prev" />
-    <Text layoutX="18.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add an Question Code :" wrappingWidth="189.580078125">
+    <CheckBox fx:id="answer1" layoutX="30.0" layoutY="236.0" mnemonicParsing="false" />
+    <CheckBox fx:id="Answer_2" layoutX="30.0" layoutY="264.0" mnemonicParsing="false" />
+    <CheckBox fx:id="Answer_3" layoutX="30.0" layoutY="291.0" mnemonicParsing="false" />
+    <CheckBox fx:id="Answer_4" layoutX="30.0" layoutY="318.0" mnemonicParsing="false" />
+    <Button fx:id="QuestionNextButton" layoutX="545.0" layoutY="364.0" mnemonicParsing="false" onAction="#HandleQuestionNext" text="Next" />
+    <Button fx:id="QuestionPrevButton" layoutX="499.0" layoutY="364.0" mnemonicParsing="false" onAction="#HandleQuestionPrev" text="Prev" />
+    <Text layoutX="18.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Question Code :" wrappingWidth="189.580078125">
         <font>
           <Font size="18.0" />
         </font>
     </Text>
-    <TextField fx:id="QuestionCode" layoutX="216.0" layoutY="49.0" promptText="Code" />
+    <TextField fx:id="QuestionCode" layoutX="164.0" layoutY="50.0" promptText="Add Question Code" />
+   <Button fx:id="SaveQuestion" layoutX="252.0" layoutY="364.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" text="Save" />
+   <Button fx:id="QuestionExit" layoutX="13.0" layoutY="364.0" mnemonicParsing="false" onAction="#HandleQuestionExit" text="Exit" />
 </AnchorPane>

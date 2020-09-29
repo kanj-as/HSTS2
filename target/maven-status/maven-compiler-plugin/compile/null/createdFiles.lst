@@ -16,13 +16,14 @@ org\HSTS_2020\Client\ClientConsole.class
 org\HSTS_2020\Client\DBConnection.class
 org\HSTS_2020\Client\AbstractClient.class
 org\HSTS_2020\Client\HSTSgui\MainStudentController.class
-org\HSTS_2020\Client\HSTSgui\CreateExam.class
 org\HSTS_2020\AbstractServer$1.class
 module-info.class
 org\HSTS_2020\Server\ServerConsole$3.class
 org\HSTS_2020\Client\HSTSgui\MainController.class
+org\HSTS_2020\Client\HSTSgui\AddQuestionController.class
 org\HSTS_2020\Server\Student.class
 org\HSTS_2020\Client\HSTSgui\MainTeacherController.class
 org\HSTS_2020\AbstractServer.class
+org\HSTS_2020\Client\HSTSgui\CreateExamController.class
 org\HSTS_2020\ChatIF.class
 org\HSTS_2020\SecondaryController.class

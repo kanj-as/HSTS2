@@ -75,6 +75,7 @@ public class LoginController {
 
     @FXML
     void HandleStudentLogin(ActionEvent event) throws IOException {
+        App.setRoot("mainStudent");
         //MAKE json
         //SEND REQUEST TO SERVER
         List<Student> students = new ArrayList<>();

@@ -32,8 +32,8 @@ public class MainTeacherController {
     }
 
     @FXML
-    void HandleCreateExam(ActionEvent event) {
-
+    void HandleCreateExam(ActionEvent event) throws IOException {
+        App.setRoot("createExam");
     }
 
     @FXML
