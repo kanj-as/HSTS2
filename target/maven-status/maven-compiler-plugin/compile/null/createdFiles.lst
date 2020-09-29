@@ -1,3 +1,4 @@
+org\HSTS_2020\Server\Teacher.class
 org\HSTS_2020\Client\DBConnection.class
 org\HSTS_2020\App.class
 org\HSTS_2020\Client\AbstractClient.class
