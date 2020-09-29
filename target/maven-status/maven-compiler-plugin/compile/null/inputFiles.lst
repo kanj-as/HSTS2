@@ -1,5 +1,6 @@
 C:\Users\Duchess\Documents\GitHub\HSTS\src\main\java\org\HSTS_2020\App.java
 C:\Users\Duchess\Documents\GitHub\HSTS\src\main\java\org\HSTS_2020\PrimaryController.java
+C:\Users\Duchess\Documents\GitHub\HSTS\src\main\java\org\HSTS_2020\Client\HSTSgui\AddQuestion.java
 C:\Users\Duchess\Documents\GitHub\HSTS\src\main\java\org\HSTS_2020\AbstractServer.java
 C:\Users\Duchess\Documents\GitHub\HSTS\src\main\java\org\HSTS_2020\ConnectionToClient.java
 C:\Users\Duchess\Documents\GitHub\HSTS\src\main\java\org\HSTS_2020\ChatIF.java
@@ -13,6 +14,7 @@ C:\Users\Duchess\Documents\GitHub\HSTS\src\main\java\org\HSTS_2020\Client\DBConn
 C:\Users\Duchess\Documents\GitHub\HSTS\src\main\java\org\HSTS_2020\Client\AbstractClient.java
 C:\Users\Duchess\Documents\GitHub\HSTS\src\main\java\org\HSTS_2020\SecondaryController.java
 C:\Users\Duchess\Documents\GitHub\HSTS\src\main\java\org\HSTS_2020\Server\EchoServer.java
+C:\Users\Duchess\Documents\GitHub\HSTS\src\main\java\org\HSTS_2020\Client\HSTSgui\CreateExam.java
 C:\Users\Duchess\Documents\GitHub\HSTS\src\main\java\org\HSTS_2020\Server\Teacher.java
 C:\Users\Duchess\Documents\GitHub\HSTS\src\main\java\org\HSTS_2020\Client\HSTSgui\MainStudentController.java
 C:\Users\Duchess\Documents\GitHub\HSTS\src\main\java\org\HSTS_2020\Client\HSTSgui\MainController.java

@@ -41,6 +41,7 @@ public class LoginTeacherController {
 
     @FXML
     void HandleTeacherLogin(ActionEvent event) throws IOException {
+        App.setRoot("mainTeacher");
         List<Teacher> teachers = new ArrayList<>();
         try{
             Connection db= DBConnection.getInstance().getConnection();

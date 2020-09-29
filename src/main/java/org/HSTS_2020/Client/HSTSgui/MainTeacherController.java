@@ -26,7 +26,8 @@ public class MainTeacherController {
     private Button AddQuestionButton;
 
     @FXML
-    void HandleAddQuestion(ActionEvent event) {
+    void HandleAddQuestion(ActionEvent event) throws IOException {
+        App.setRoot("addQuestion");
 
     }
 
