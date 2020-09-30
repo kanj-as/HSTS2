@@ -19,11 +19,12 @@
                         <Image url="@grades.jpg" />
                     </image>
                 </ImageView>
-            <Text layoutX="61.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="****** ***** ****** ****** ***** ********* *******" wrappingWidth="163.841796875">
+            <Text layoutX="42.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="“My priority is not about grades. I yearn for knowledge, skills and wisdom.”" wrappingWidth="213.841796875">
                <font>
-                  <Font size="18.0" />
+                  <Font name="Ink Free" size="24.0" />
                </font>
             </Text>
+            <Text layoutX="42.0" layoutY="348.0" strokeType="OUTSIDE" strokeWidth="0.0" text="― Lailah Gifty Akita" />
             </children>
         </AnchorPane>
     </left>
