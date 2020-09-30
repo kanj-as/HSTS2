@@ -8,6 +8,7 @@ org\HSTS_2020\ConnectionToClient.class
 org\HSTS_2020\Server\EchoServer.class
 org\HSTS_2020\Client\ChatClient.class
 org\HSTS_2020\Server\ServerConsole$1.class
+org\HSTS_2020\Server\Question.class
 org\HSTS_2020\Client\HSTSgui\GiveExamController.class
 org\HSTS_2020\Client\Instance.class
 org\HSTS_2020\PrimaryController.class
