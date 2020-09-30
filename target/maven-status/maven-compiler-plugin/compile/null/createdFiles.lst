@@ -1,6 +1,5 @@
 org\HSTS_2020\Server\Teacher.class
 org\HSTS_2020\App.class
-org\HSTS_2020\Client\HSTSgui\AddQuestion.class
 org\HSTS_2020\Server\ServerConsole$2.class
 org\HSTS_2020\Server\ServerConsole.class
 org\HSTS_2020\Client\HSTSgui\LoginController.class

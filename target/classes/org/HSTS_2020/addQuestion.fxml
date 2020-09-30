@@ -15,7 +15,7 @@
           <Font size="18.0" />
         </font>
     </Text>
-    <ChoiceBox layoutX="88.0" layoutY="14.0" prefWidth="150.0" />
+    <ChoiceBox fx:id="CourseCBox" layoutX="88.0" layoutY="14.0" prefWidth="150.0" />
     <Text layoutX="16.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Question">
         <font>
           <Font size="18.0" />
@@ -28,7 +28,7 @@
         </font>
     </Text>
     <TextArea fx:id="AddAnswar" layoutX="13.0" layoutY="224.0" prefHeight="133.0" prefWidth="574.0" />
-    <ChoiceBox layoutX="225.0" layoutY="175.0" prefWidth="150.0" />
+    <ChoiceBox fx:id="AnswerCbox" layoutX="225.0" layoutY="175.0" prefWidth="150.0" />
     <Text layoutX="18.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Answer selection types :">
         <font>
           <Font size="18.0" />
@@ -46,6 +46,7 @@
         </font>
     </Text>
     <TextField fx:id="QuestionCode" layoutX="164.0" layoutY="50.0" promptText="Add Question Code" />
-   <Button fx:id="SaveQuestion" layoutX="252.0" layoutY="364.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" text="Save" />
+   <Button fx:id="SaveQuestion" layoutX="252.0" layoutY="364.0" mnemonicParsing="false" onAction="#HandleSaveQuestion" prefHeight="25.0" prefWidth="84.0" text="Save" />
    <Button fx:id="QuestionExit" layoutX="13.0" layoutY="364.0" mnemonicParsing="false" onAction="#HandleQuestionExit" text="Exit" />
+   <Button fx:id="ApplyAnswerChoice" layoutX="381.0" layoutY="175.0" mnemonicParsing="false" onAction="#HandleApplyAnswer" text="Apply" />
 </AnchorPane>
