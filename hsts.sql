@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: ספטמבר 30, 2020 בזמן 11:18 AM
+-- Generation Time: ספטמבר 30, 2020 בזמן 07:03 PM
 -- גרסת שרת: 10.4.11-MariaDB
 -- PHP Version: 7.4.5
 
@@ -32,13 +32,24 @@ CREATE TABLE `questions` (
   `Question_code` int(3) NOT NULL,
   `Question` text NOT NULL,
   `Question_Remarks` text NOT NULL,
-  `Answer_1` text NOT NULL,
+  `Answer_1` text DEFAULT NULL,
   `Answer_2` text NOT NULL,
   `Answer_3` text NOT NULL,
   `Answer_4` text NOT NULL,
   `Open_answer` text NOT NULL,
   `Correct_Answer` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- הוצאת מידע עבור טבלה `questions`
+--
+
+INSERT INTO `questions` (`Topic_code`, `Question_code`, `Question`, `Question_Remarks`, `Answer_1`, `Answer_2`, `Answer_3`, `Answer_4`, `Open_answer`, `Correct_Answer`) VALUES
+(1, 1, 'what you get if you mix all colors of light?', 'no remarks', 'Black', 'Blue', 'White', 'Green', '', 'White'),
+(1, 2, 'what you get if you mix all colors of paint?', '', '', '', '', '', 'ok', 'Black'),
+(1, 3, 'test test!!!', 'test', 'yes', 'no', 'maybe', 'all the above', '', 'none'),
+(1, 4, 'what you get if you mix all colors of paint?', '', '1', '2', '3', '4', '', 'Black'),
+(1, 5, 'what you get if you mix all colors of paint?', '', '', '', '', '', 'ok', 'Black');
 
 -- --------------------------------------------------------
 
@@ -86,6 +97,12 @@ INSERT INTO `teachers` (`Teacher_ID`, `Teacher_Name`, `Teacher_Email`, `Topic`, 
 --
 -- Indexes for dumped tables
 --
+
+--
+-- אינדקסים לטבלה `questions`
+--
+ALTER TABLE `questions`
+  ADD PRIMARY KEY (`Question_code`);
 
 --
 -- אינדקסים לטבלה `students`
