@@ -47,6 +47,9 @@ public class LoginTeacherController {
             Connection db= DBConnection.getInstance().getConnection();
             Statement statment = db.createStatement();
             //Class for reading from DB
+
+
+
             ResultSet rs=statment.executeQuery("SELECT Teacher_ID,Teacher_Password FROM HSTS.teachers");
             while (rs.next())
             {

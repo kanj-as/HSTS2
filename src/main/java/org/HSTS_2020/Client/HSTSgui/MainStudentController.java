@@ -28,12 +28,14 @@ public class MainStudentController {
     }
 
     @FXML
-    void HandleTakeExam(ActionEvent event) {
+    void HandleTakeExam(ActionEvent event) throws IOException {
+        App.setRoot("makeExam");
 
     }
 
     @FXML
-    void HandleViewGrades(ActionEvent event) {
+    void HandleViewGrades(ActionEvent event) throws IOException {
+        App.setRoot("studentGrades");
 
     }
 

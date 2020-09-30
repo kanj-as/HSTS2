@@ -43,7 +43,8 @@ public class MainTeacherController {
     }
 
     @FXML
-    void HandleGiveExam(ActionEvent event) {
+    void HandleGiveExam(ActionEvent event) throws IOException {
+        App.setRoot("giveExam");
 
     }
 

@@ -2,11 +2,13 @@ org\HSTS_2020\Server\Teacher.class
 org\HSTS_2020\App.class
 org\HSTS_2020\Server\ServerConsole$2.class
 org\HSTS_2020\Server\ServerConsole.class
+org\HSTS_2020\Client\HSTSgui\MakeExamController.class
 org\HSTS_2020\Client\HSTSgui\LoginController.class
 org\HSTS_2020\ConnectionToClient.class
 org\HSTS_2020\Server\EchoServer.class
 org\HSTS_2020\Client\ChatClient.class
 org\HSTS_2020\Server\ServerConsole$1.class
+org\HSTS_2020\Client\HSTSgui\GiveExamController.class
 org\HSTS_2020\Client\Instance.class
 org\HSTS_2020\PrimaryController.class
 org\HSTS_2020\Server\ServerConsole$4.class
@@ -21,6 +23,7 @@ org\HSTS_2020\Server\ServerConsole$3.class
 org\HSTS_2020\Client\HSTSgui\MainController.class
 org\HSTS_2020\Client\HSTSgui\AddQuestionController.class
 org\HSTS_2020\Server\Student.class
+org\HSTS_2020\Client\HSTSgui\StudentGradesController.class
 org\HSTS_2020\Client\HSTSgui\MainTeacherController.class
 org\HSTS_2020\AbstractServer.class
 org\HSTS_2020\Client\HSTSgui\CreateExamController.class
